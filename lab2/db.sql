@@ -1,0 +1,9 @@
+
+
+CREATE TABLE IF NOT EXISTS guest (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user VARCHAR(50) NOT NULL,
+    text_message TEXT NOT NULL,
+    e_mail VARCHAR(50),
+    data_time_message DATETIME DEFAULT CURRENT_TIMESTAMP
+);

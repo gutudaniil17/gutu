@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+.form-wrapper {
+    width: 300px; /* Ширина формы */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    text-align: center; /* Центрирование содержимого по горизонтали */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* При наведении на кнопку */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.guest-entry {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+.guest-entry h4 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; 
+    width: 100%;
+}
+textarea {
+    width: calc(100%); /* Вычитаем padding (10px с каждой стороны) из общей ширины */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type='email']{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.error {
+    color: red;
+}
